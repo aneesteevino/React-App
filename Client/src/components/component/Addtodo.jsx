@@ -17,7 +17,7 @@ const Addtodo = ({ setTodo }) => {
 
     setTodo((value) => [...value, todo]);
     setTitle('');
-    setError(''); // Clear error after successful addition
+    setError(''); 
   };
 
   return (
@@ -27,7 +27,7 @@ const Addtodo = ({ setTodo }) => {
           value={title}
           onChange={(e) => {
             setTitle(e.target.value);
-            setError(''); // Clear error while typing
+            setError(''); 
           }}
           type="text"
           placeholder="Add a new todo..."
