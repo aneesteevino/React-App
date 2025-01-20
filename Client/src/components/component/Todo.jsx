@@ -20,7 +20,7 @@ const Todo = () => {
   return (
     <>
       <div className="text-5xl h-16 rounded-lg font-extralight border-blue-50 flex justify-center items-center">
-        <h1>TodoApp</h1>
+        <h1 className='text-white'>TodoApp</h1>
       </div>
       <div>
         <Addtodo setTodo={setTodo} />

@@ -40,7 +40,7 @@ const Todospan = ({ todos, deleteTodo, updateTodo }) => {
           </Button>
         )}
         <Button
-          className="hover:bg-red-600"
+          className="hover:bg-red-600 "
           onClick={() => deleteTodo(todos.id)}
         >
           <Delete />

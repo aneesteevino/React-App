@@ -36,7 +36,7 @@ const Addtodo = ({ setTodo }) => {
         />
         <button
           onClick={addtodo}
-          className='bg-black hover:bg-green-700 h-10 w-[50px] text-white font-bold flex justify-center items-center rounded-lg'
+          className='bg-white hover:bg-green-700 h-10 w-[50px] text-black font-bold flex justify-center items-center rounded-lg'
         >
           +
         </button>
