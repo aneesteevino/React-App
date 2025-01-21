@@ -33,7 +33,7 @@ const Todospan = ({ todos, deleteTodo, updateTodo }) => {
           </Button>
         ) : (
           <Button
-            className="hover:bg-green-700"
+            className= " hover:bg-green-700"
             onClick={() => setIsEditing(true)}
           >
             <Edit />
